@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(#f5d742 20%,#42f55d 60%,#f542e3 100%);
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    border: 10px;
+    border-color: firebrick;
+    border-style: double;
+    border-radius: 140px;
+}
