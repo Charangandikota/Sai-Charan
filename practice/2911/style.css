@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(#292733 20%,#273328 100%);
+}
+img{
+    width:300px;
+    height:300px;
+}
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.image{
+    width:30%;
+    border:solid 3px blue;
+    margin:10px;
+    border-radius: 10px;
+}
+img{
+    max-width:50%       
+}
+h1{
+    color: aqua;
+    font-size: 50px;
+    font-style: italic;
+}

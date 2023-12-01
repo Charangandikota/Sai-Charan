@@ -1,0 +1,17 @@
+
+div{
+        width: 100px;
+        height: 100px;
+        background-color: darkblue;
+        animation-name: example;
+        animation-duration: 6s;     
+        }
+
+        @keyframes example{
+        0%{background-color: coral;}
+        30%{background-color: darkviolet;}
+        50%{background-color: fuchsia;}
+        70%{background-color: darkred;}
+        100%{background-color: aquamarine;}
+    </style>
+</html>
