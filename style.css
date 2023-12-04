@@ -1,13 +1,25 @@
 body{
-    background: linear-gradient(#f5d742 20%,#42f55d 60%,#f542e3 100%);
-    
+    background:linear-gradient(#fcba03 10%, #52fc03 20%);
+}
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.image{
+    width: 48%;
+    border: solid 3px blue;
+    margin: 10px;
+    border-radius: 10px;
+    border-bottom: 10px;
+    margin-bottom: 10px;
 }
 img{
-    width: 200px;
-    height: 200px;
-    margin: 30px;
-    border: 10px;
-    border-color: firebrick;
-    border-style: double;
-    border-radius: 140px;
+    max-width: 50%;
+}
+h6{
+    color: black;
+    font-size: 100px;
+    font-style: initial;
+   
 }
