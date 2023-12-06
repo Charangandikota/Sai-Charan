@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>My Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        
+        <h1>INTERESTED IN STUDYING ABROAD?FILL THE FORM AND RECEIVE A QUICK RESPONSE</h1>
+        <form>
+            <label for="inputfield">Full Name*</label>
+            <br/>
+              <input type="text" id="inputfield">
+            <br>
+           <label for="inputfield"> phone Number*</label>
+            <br>
+            <input type="number" id="inputfield" pattern="{0-9}{10}" placeholder="0123456789" required>
+            <br/>
+            <label for="inputfield">Email*</label>
+            <br/>
+            <input type="email" id="inputfield">
+            <br>
+            <label for="inputfield">Countries prefer*</label>
+            <br>
+        <select>
+            <option value="select countries"> select option</option>
+            <option value="INDIA"> INDIA</option>
+            <option value="Malaysia"> Malaysia</option>
+            <option value="London">London</option>
+            <option value="Germany">Germany</option>
+            </select>
+            <br>
+            <button onclick="showname()">submit</button>
+            
+            <script src="main.js"></script>
+        </form>
+    </body>
+    <style>
+        body{
+            background-color: cornflowerblue;
+            backface-visibility: visible;
+            font-family:arial,sans-serif;
+            text-align: center;
+            margin: 40px;
+        }
+        label{
+            color: snow;
+            display: block;
+            margin-bottom: 15px;
+        }
+        input{
+            padding:4px;
+            margin-bottom:09px; 
+        }
+        button{
+            padding: 7px 15px;
+            background-color:black;
+            color: whitesmoke;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        h1{
+            color: whitesmoke;
+            font-size:40px;
+            font-style: initial;
+        }
+    </style>
+</html>
