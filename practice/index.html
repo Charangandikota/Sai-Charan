@@ -1,16 +1,114 @@
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="style.css" />                              
-    </head>
-    <body>
-        <h2>Social Media Icons</h2>
-    <a href="https://www.facebook.com/"class="fa fa-facebook"></a>
-    <a href="https://twitter.com/home"class="fa fa-twitter"></a>
-    <a href="https://www.google.com/?authuser=0"class="fa fa-google"></a>
-    <a href="https://www.linkedin.com/feed/"class="fa fa-linkedin"></a>
-    <a href="https://youtube.com/" class="fa fa-youtube"></a>
-    <a href="https://www.instagram.com/"class="fa fa-instagram"></a>
-    </body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            background-color: #555;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .left {
+            float: left;
+            width: 30%;
+        }
+
+        .right {
+            float: right;
+            width: 30%;
+        }
+
+        .center {
+            margin: 0 auto;
+            width: 30%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width:100%;
+        }
+    </style>
+    <title>Basic Web Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Web Page</h1>
+    </header>
+
+    <nav>
+        <a href="https://www.ajio.com/?gad_source=1&gclid=CjwKCAiApuCrBhAuEiwA8VJ6Ji7rkTXMygIw1mdJ5ZC0r6nIVlfjBqWFjjudkaECbMnt7TMpc4MP8BoCgQ0QAvD_BwE">Fashion</a>
+        <a href="https://en.wikipedia.org/wiki/HTML">About</a>
+        <a href="https://www.whatsapp.com/contact/?subject=messenger">Contact</a>
+    </nav>
+
+    <section>
+        <div class="left">
+            <h2>Fashion(AJIO)</h2>
+            <p>Fashion is a popular aesthetic expression that is in vogue. It is also an industry-supported expression. 
+ Fashion is a term used to describe the creation of clothing, footwear, accessories, cosmetics, and jewelry. Fashion can also refer to the mix and match of these items into outfits that depict distinctive ways of dressing.</p>
+            <img src="https://assets.ajio.com/cms/AJIO/MOBILE/M-1.0-UHP-07122023-Z1-MAINBANNER-5090.gif" alt="Placeholder Image">
+        </div>
+
+        <div class="center">
+            <h2>ABOUT (HTML)</h2>
+            <p>HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format.</p>
+            <img src="https://austingil.com/wp-content/uploads/HTML-Blog-Cover.png" alt="Placeholder Image">
+        </div>
+
+        <div class="right">
+            <h2>CONTACT US</h2>
+            <p>A "Contact Us" page on a website provides visitors with ways to get in touch with the business. The goal of a "Contact Us" page is to clearly and effectively present the methods for getting in touch with a company</p>
+            <img src="https://media.istockphoto.com/id/1365543480/video/contact-us-concept.jpg?s=640x640&k=20&c=G16GzQ4uJKlITww2ArmKNB9UKb1-IT2eyJrUxkUmAIY=" alt="Placeholder Image">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Web Page. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
